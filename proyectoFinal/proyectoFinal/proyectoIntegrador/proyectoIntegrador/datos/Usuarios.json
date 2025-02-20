@@ -4,61 +4,72 @@
       "id": 1,
       "nombre": "Juan",
       "email": "Juan89@gmail.com",
-      "DP": "67045",
-      "imagen": "",
+      "CP": "67045",
       "notificaciones": true,
       "newsletter": true,
-      "password": "12345678"
+      "password": "12345678",
+      "carrito" : "",
+      "historial" : ""
     },
     {
       "id": 2,
       "nombre": "Laura",
       "email": "Laurich@gmail.com",
-      "DP": "50693",
+      "CP": "50693",
       "imagen": "",
       "notificaciones": false,
       "newsletter": false,
-      "password": "password123"
+      "password": "password123",
+      "carrito" : "",
+      "historial" :""
     },
     {
       "id": 3,
       "nombre": "Mario",
       "email": "mrobles@gmail.com",
-      "DP": "56230",
+      "CP": "56230",
       "imagen": "",
       "notificaciones": true,
       "newsletter": true,
-      "password": "securepassword"
+      "password": "securepassword",
+      "carrito" : "",
+      "historial" :""
     },
     {
       "id": 4,
       "nombre": "Hugo",
       "email": "Hosma@gmail.com",
-      "DP": "56789",
+      "CP": "56789",
       "imagen": "",
       "notificaciones": true,
       "newsletter": true,
-      "password": "hugo1234"
+      "password": "hugo1234",
+      "carrito" : "",
+      "historial" :""
     },
     {
       "id": 5,
       "nombre": "Anton",
       "email": "Alu@gmail.com",
-      "DP": "45456",
+      "CP": "45456",
       "imagen": "",
       "notificaciones": false,
       "newsletter": false,
-      "password": "anton5678"
+      "password": "anton5678",
+      "carrito" : "",
+      "historial" :""
     },
     {
       "id": 6,
       "nombre": "Hui",
       "email": "huihui@gmail.com",
-      "DP": "56723",
+      "CP": "56723",
       "imagen": "",
       "notificaciones": true,
       "newsletter": true,
-      "password": "huihui123"
+      "password": "huihui123",
+      "carrito" : "",
+      "historial" :""
     }
   ]
 }

@@ -25,7 +25,7 @@ struct Perfil: View {
                 Text("Nombre: \(controller.usuario.nombre)")
                     .padding(.horizontal, 40)
 
-                Text("Dirección Postal: \(controller.usuario.DP.isEmpty ? "No registrada" : controller.usuario.DP)")
+                Text("Dirección Postal: \(controller.usuario.CP.isEmpty ? "No registrada" : controller.usuario.CP)")
                     .padding(.horizontal, 40)
 
                 Text("Correo Electrónico: \(controller.usuario.email)")

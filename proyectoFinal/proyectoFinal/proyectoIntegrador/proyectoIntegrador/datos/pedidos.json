@@ -1,18 +1,18 @@
 {
     "pedidos": [
       {
-        "id": "pedido123",
+        "id": 1,
         "usuario_id": 1,
         "productos": [
           {
-            "producto_id": "1",
-            "nombre": "Pikachu Figura",
+            "producto_id": 1,
+            "nombre": "Pikachu",
             "cantidad": 2,
             "precio_unitario": 15.99
           },
           {
-            "producto_id": "2",
-            "nombre": "Bola de Cristal",
+            "producto_id": 2,
+            "nombre": "Lugia",
             "cantidad": 1,
             "precio_unitario": 8.49
           }
@@ -21,12 +21,12 @@
         "fecha": "2025-02-16T10:45:00Z"
       },
       {
-        "id": "pedido124",
+        "id": 2,
         "usuario_id": 2,
         "productos": [
           {
-            "producto_id": "2",
-            "nombre": "Bola de Cristal",
+            "producto_id": 2,
+            "nombre": "Palkia",
             "cantidad": 3,
             "precio_unitario": 8.49
           }

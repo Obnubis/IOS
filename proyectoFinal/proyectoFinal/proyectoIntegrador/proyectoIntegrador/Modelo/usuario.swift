@@ -10,9 +10,12 @@ struct Usuario: Codable {
     let id: Int
     let nombre: String
     let email: String
-    let DP: String
-    let imagen: String
-    let notificaciones: Bool
+    let CP: String
+    let imagen: String?
+    var notificaciones: Bool
     var newsletter: Bool
     let password: String
+    var carrito: String?
+    var historial: String?
 }
+

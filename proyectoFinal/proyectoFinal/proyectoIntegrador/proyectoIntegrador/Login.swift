@@ -5,7 +5,7 @@ struct Login: View {
     @State private var contraseña: String = ""
     @State private var usuarioAutenticado: Usuario?
     @State private var mostrarError = false
-    @State private var isLoggedIn = false  
+    @State private var isLoggedIn = false
     let usuarioController = UsuarioController()
 
     var body: some View {
@@ -26,7 +26,7 @@ struct Login: View {
                 Button("Iniciar Sesión") {
                     if let usuario = usuarioController.autenticar(email: email, contraseña: contraseña) {
                         usuarioAutenticado = usuario
-                        isLoggedIn = true
+                        isLoggedIn = true // Esto activa la navegación
                     } else {
                         mostrarError = true
                     }
@@ -43,14 +43,16 @@ struct Login: View {
                         .foregroundColor(.red)
                 }
 
-                if let usuario = usuarioAutenticado {
-                    NavigationLink("Ir a Perfil", destination: Perfil(controller: PerfilController(usuario: usuario), isLoggedIn: $isLoggedIn))
-                }
-
                 NavigationLink("¿No tienes cuenta? Regístrate", destination: Registro())
                     .foregroundColor(.blue)
             }
             .padding()
+            // Este es el cambio clave: navegación automática al perfil cuando isLoggedIn es true
+            .navigationDestination(isPresented: $isLoggedIn) {
+                if let usuario = usuarioAutenticado {
+                    Perfil(controller: PerfilController(usuario: usuario), isLoggedIn: $isLoggedIn)
+                }
+            }
         }
     }
 }

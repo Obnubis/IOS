@@ -18,29 +18,19 @@ class UsuarioController {
     }
 
     func cargarUsuarios() {
-        if let url = Bundle.main.url(forResource: "Usuarios", withExtension: "json") {  // Asegúrate de que el archivo JSON esté correctamente nombrado
+        if let url = Bundle.main.url(forResource: "Usuarios", withExtension: "json") {
+            print("Archivo JSON encontrado en la ruta: \(url.path)")
             do {
                 let data = try Data(contentsOf: url)
                 let decodedData = try JSONDecoder().decode(UsuariosWrapper.self, from: data)
                 self.usuarios = decodedData.usuarios
-
-                if usuarios.isEmpty {
-                    print("No se cargaron usuarios desde el JSON.")
-                } else {
-                    print("Usuarios cargados correctamente:")
-                    for usuario in self.usuarios {
-                        print("Nombre: \(usuario.nombre), Email: \(usuario.email), Password: \(usuario.password)")
-                    }
-                }
             } catch {
                 print("Error al cargar JSON: \(error.localizedDescription)")
             }
         } else {
-            print("No se encontró el archivo JSON en el proyecto.")
+            print("No se encontró el archivo JSON en la carpeta 'datos'.")
         }
     }
-
-
 
     func autenticar(email: String, contraseña: String) -> Usuario? {
         print("Intentando autenticar con Email: \(email) y Contraseña: \(contraseña)")
