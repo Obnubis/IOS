@@ -1,0 +1,84 @@
+{
+  "CartasComprar": [
+    {
+      "id": "pikachu",
+      "nombre": "Pikachu",
+      "precio": 20,
+      "descripcion": "Carta especial de pikachu",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "charizard",
+      "nombre": "Charizard",
+      "precio": 100,
+      "descripcion": "Carta unica de Charizard",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "dialga",
+      "nombre": "Dialga",
+      "precio": 50,
+      "descripcion": "Carta de Dialga",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "darkrai",
+      "nombre": "Darkrai",
+      "precio": 30,
+      "descripcion": "Carta de darkrai",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 0,
+      "usuario": null
+    },
+    {
+      "id": "umbreon",
+      "nombre": "Umbreon",
+      "precio": 20,
+      "descripcion": "Carta rara de umbreon",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "raichu",
+      "nombre": "Raichu",
+      "precio": 500,
+      "descripcion": "Carta pre-lanzamiento de Raichu",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "lugia",
+      "nombre": "Lugia",
+      "precio": 60,
+      "descripcion": "carta de lugia",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    },
+    {
+      "id": "palkia",
+      "nombre": "Palkia",
+      "precio": 30,
+      "descripcion": "Carta de palkia",
+      "imagen": "",
+      "fecha": "",
+      "cantidad": 1,
+      "usuario": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "email": "Juan89@gmail.com",
+      "DP": "67045",
+      "imagen": "",
+      "notificaciones": true,
+      "newsletter": true,
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "nombre": "Laura",
+      "email": "Laurich@gmail.com",
+      "DP": "50693",
+      "imagen": "",
+      "notificaciones": false,
+      "newsletter": false,
+      "password": "password123"
+    },
+    {
+      "id": 3,
+      "nombre": "Mario",
+      "email": "mrobles@gmail.com",
+      "DP": "56230",
+      "imagen": "",
+      "notificaciones": true,
+      "newsletter": true,
+      "password": "securepassword"
+    },
+    {
+      "id": 4,
+      "nombre": "Hugo",
+      "email": "Hosma@gmail.com",
+      "DP": "56789",
+      "imagen": "",
+      "notificaciones": true,
+      "newsletter": true,
+      "password": "hugo1234"
+    },
+    {
+      "id": 5,
+      "nombre": "Anton",
+      "email": "Alu@gmail.com",
+      "DP": "45456",
+      "imagen": "",
+      "notificaciones": false,
+      "newsletter": false,
+      "password": "anton5678"
+    },
+    {
+      "id": 6,
+      "nombre": "Hui",
+      "email": "huihui@gmail.com",
+      "DP": "56723",
+      "imagen": "",
+      "notificaciones": true,
+      "newsletter": true,
+      "password": "huihui123"
+    }
+  ]
+}
